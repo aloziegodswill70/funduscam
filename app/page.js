@@ -176,7 +176,6 @@ export default function Home() {
                 videoConstraints={{ facingMode: { ideal: "environment" } }}
                 className="w-full h-full object-cover"
               />
-              <AlignmentOverlay />
               {!ready && (
                 <div className="absolute inset-0 grid place-items-center text-white/80">
                   Initializing camera…
