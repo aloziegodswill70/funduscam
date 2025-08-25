@@ -2,7 +2,6 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import Webcam from "react-webcam";
-import AlignmentOverlay from "../components/AlignmentOverlay.jsx";
 import EllipseCropper from "../components/EllipseCropper.jsx";
 import { claheDataUrl } from "../lib/imageUtils";
 import PdfExporter from "../components/PdfExporter.jsx";
